@@ -1,0 +1,48 @@
+<!Doctype html>
+
+<html>
+  <head>
+    	<title> Formulario </title>
+  </head>
+
+<body>
+    <form method="post" action="enviador.php">
+
+
+       <br>     	  
+     	 <label for="nombre" >Nombre:</label>
+     	 <input type="text" name="nombre" placeholder="Ingresa tu Nombre" required><!--atributo de obligatorio/-->
+       
+       <br/>
+         <label for="correo">Email</label>
+         <input type="email" name="correo" placeholder="ingresa tu mail" required>
+      
+       <br/>
+         <label for="edad" >Edad</label>
+         <input type="number" name="edad" placeholder="ingresa tu edad" required>
+ 
+      
+       <br/>
+         <label for="telefono" >Edad</label>
+         <input type="number" name="Telefono" placeholder="ingresa tu Telefono">
+      
+       <br/>
+         <label for="mensaje" >Comentarios</label>
+         <TEXTAREA name="mensaje" placeholder= "deja tu comentario"></TEXTAREA>
+      
+       <br/>
+         <label for="foto">Foto:</label>
+         <input type="file" name="Foto">
+      
+       <br/>
+        <input type="checkbox" name = "novedades">Desea recibir novedades?
+
+       <br> Seleccione su sexo:	<br>
+        <input type="radio" name="Sexo" value="Masculino">Masculino 
+        <input type="radio" name="Sexo" value="Femenino"> Femenino 
+ 
+
+    </form> 
+
+</body>
+</html>
